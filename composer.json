@@ -1,0 +1,43 @@
+{
+    "name": "cachethq/sdk",
+    "description": "The PHP SDK for Cachet.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Brooks",
+            "email": "james@alt-three.com"
+        },
+        {
+            "name": "Graham Campbell",
+            "email": "graham@alt-three.com"
+        },
+        {
+            "name": "Joseph Cohen",
+            "email": "joe@alt-three.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "kriswallsmith/buzz": "~0.10",
+        "guzzle/guzzle": "~3.7",
+        "guzzlehttp/guzzle": "~5.0|~6.0",
+        "phpspec/phpspec": "~2.4"
+    },
+    "suggest": {
+        "kriswallsmith/buzz": "To use BuzzAdapter, require kriswallsmith/buzz:~0.10.",
+        "guzzle/guzzle": "To use GuzzleAdapter, require guzzle/guzzle:~3.7.",
+        "guzzlehttp/guzzle": "To use GuzzleHttpAdapter, require guzzlehttp/guzzle:~5.0|~6.0."
+    },
+    "autoload": {
+        "psr-4": {
+            "CachetHQ\\SDK\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist"
+    }
+}
