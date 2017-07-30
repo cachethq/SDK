@@ -11,7 +11,6 @@
 
 namespace CachetHQ\SDK\Api;
 
-use CachetHQ\SDK\Adapter\AdapterInterface;
 use CachetHQ\SDK\Entity\Component as ComponentEntity;
 
 /**
