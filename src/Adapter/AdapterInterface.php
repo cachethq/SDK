@@ -13,7 +13,7 @@ namespace CachetHQ\SDK\Adapter;
 
 /**
  * This is the adapter interface.
- * 
+ *
  * @author James Brooks <james@alt-three.com>
  */
 interface AdapterInterface
@@ -22,7 +22,7 @@ interface AdapterInterface
      * Get a resource.
      *
      * @param string $endpoint
-     * 
+     *
      * @throws \CachetHQ\SDK\Exception\HttpException
      *
      * @return mixed
@@ -33,7 +33,7 @@ interface AdapterInterface
      * Delete a resource.
      *
      * @param string $endpoint
-     * 
+     *
      * @throws \CachetHQ\SDK\Exception\HttpException
      *
      * @return mixed
@@ -45,7 +45,7 @@ interface AdapterInterface
      *
      * @param string       $endpoint
      * @param array|string $content
-     * 
+     *
      * @throws \CachetHQ\SDK\Exception\HttpException
      *
      * @return mixed
@@ -57,7 +57,7 @@ interface AdapterInterface
      *
      * @param string       $endpoint
      * @param array|string $content
-     * 
+     *
      * @throws \CachetHQ\SDK\Exception\HttpException
      *
      * @return mixed

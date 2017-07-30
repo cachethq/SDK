@@ -13,7 +13,7 @@ namespace CachetHQ\SDK\Exception;
 
 /**
  * This is the exception interface.
- * 
+ *
  * @author James Brooks <james@alt-three.com>
  */
 interface ExceptionInterface

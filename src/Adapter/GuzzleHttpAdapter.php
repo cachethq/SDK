@@ -15,7 +15,6 @@ use CachetHQ\SDK\Exception\HttpException;
 use Guzzle\Http\Exception\RequestException;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Message\ResponseInterface;
 use GuzzleHttp\Psr7\Response;
 
 /**
